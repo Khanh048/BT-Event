@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,31 +17,30 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="@string/title_detail"
             android:textColor="@color/primary_dark"
             android:textSize="22sp"
-            android:textStyle="bold"
-            android:gravity="center" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="20dp"
+            android:gravity="center"
             android:text="@string/subtitle_detail"
             android:textColor="@color/text_secondary"
-            android:textSize="14sp"
-            android:gravity="center" />
+            android:textSize="14sp" />
 
-        <!-- Info Card -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/card_bg"
             app:cardCornerRadius="16dp"
             app:cardElevation="3dp"
-            app:cardBackgroundColor="@color/card_bg"
-            app:strokeWidth="1dp"
-            app:strokeColor="#CBD5E1">
+            app:strokeColor="#CBD5E1"
+            app:strokeWidth="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,10 +51,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HỌ VÀ TÊN:"
+                    android:text="@string/detail_label_fullname"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailFullName"
                     android:layout_width="match_parent"
@@ -70,16 +70,17 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#E2E8F0"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginBottom="12dp"
+                    android:background="#E2E8F0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="EMAIL:"
+                    android:text="@string/detail_label_email"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailEmail"
                     android:layout_width="match_parent"
@@ -93,16 +94,17 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#E2E8F0"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginBottom="12dp"
+                    android:background="#E2E8F0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SỐ ĐIỆN THOẠI:"
+                    android:text="@string/detail_label_phone"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailPhone"
                     android:layout_width="match_parent"
@@ -116,16 +118,17 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#E2E8F0"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginBottom="12dp"
+                    android:background="#E2E8F0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MÃ SỐ SINH VIÊN (MSSV):"
+                    android:text="@string/detail_label_student_id"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailStudentId"
                     android:layout_width="match_parent"
@@ -139,16 +142,17 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#E2E8F0"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginBottom="12dp"
+                    android:background="#E2E8F0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="GIỚI TÍNH:"
+                    android:text="@string/detail_label_gender"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailGender"
                     android:layout_width="match_parent"
@@ -162,16 +166,17 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#E2E8F0"
-                    android:layout_marginBottom="12dp" />
+                    android:layout_marginBottom="12dp"
+                    android:background="#E2E8F0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MẠNG XÃ HỘI:"
+                    android:text="@string/detail_label_social"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/tvDetailSocial"
                     android:layout_width="match_parent"
@@ -184,7 +189,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Button Back -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnBack"
             android:layout_width="match_parent"
@@ -196,7 +200,6 @@
             android:textStyle="bold"
             app:cornerRadius="10dp" />
 
-        <!-- Student Info Footer -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

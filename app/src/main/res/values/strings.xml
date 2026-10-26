@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
     <string name="app_name">BT Event Registration</string>
     <string name="title_register">ĐĂNG KÝ THÔNG TIN</string>
     <string name="subtitle_register">Thực hành Sự kiện &amp; Xác thực Form (Lab 05)</string>
@@ -18,14 +18,35 @@
     <string name="label_terms">Tôi đồng ý với các điều khoản cam kết</string>
     <string name="btn_register">ĐĂNG KÝ THÔNG TIN</string>
     <string name="student_info_footer">Sinh viên thực hiện: Võ Quốc Khánh\nMSSV: 2212345 | Lớp: Thực hành LTTĐTDĐ</string>
+
     <string name="err_empty_name">Họ tên không được để trống (tối thiểu 3 ký tự)</string>
-    <string name="err_invalid_email">Email không đúng định dạng (@ute.vn, @gmail.com)</string>
+    <string name="err_invalid_email">Email không đúng định dạng</string>
     <string name="err_invalid_phone">Số điện thoại không hợp lệ (10 số, đầu 03/05/07/08/09)</string>
     <string name="err_empty_studentid">Mã sinh viên không được để trống</string>
     <string name="err_gender">Vui lòng chọn giới tính!</string>
     <string name="err_social">Vui lòng chọn ít nhất một mạng xã hội!</string>
     <string name="err_terms">Vui lòng đồng ý với điều khoản cam kết!</string>
+
+    <string name="toast_editing_field">Đang nhập: %1$s</string>
+    <string name="toast_gender_selected">Bạn đã chọn giới tính: %1$s</string>
+    <string name="toast_social_selected">Đã chọn mạng xã hội: %1$s</string>
+    <string name="toast_social_unselected">Đã bỏ chọn mạng xã hội: %1$s</string>
+    <string name="toast_terms_accepted">Đã đồng ý điều khoản cam kết</string>
+    <string name="toast_terms_unaccepted">Đã hủy đồng ý điều khoản cam kết</string>
+    <string name="toast_registration_success">Đăng ký thành công! Đang mở màn hình chi tiết…</string>
+    <string name="toast_detail_displayed">Hiển thị chi tiết thông tin đã đăng ký</string>
+    <string name="toast_back_to_registration">Quay lại màn hình đăng ký</string>
+
     <string name="title_detail">THÔNG TIN ĐÃ ĐĂNG KÝ</string>
     <string name="subtitle_detail">Hồ sơ sinh viên tiếp nhận thành công</string>
+    <string name="detail_label_fullname">HỌ VÀ TÊN:</string>
+    <string name="detail_label_email">EMAIL:</string>
+    <string name="detail_label_phone">SỐ ĐIỆN THOẠI:</string>
+    <string name="detail_label_student_id">MÃ SỐ SINH VIÊN (MSSV):</string>
+    <string name="detail_label_gender">GIỚI TÍNH:</string>
+    <string name="detail_label_social">MẠNG XÃ HỘI:</string>
+    <string name="value_no_data">Chưa có dữ liệu</string>
+    <string name="value_no_social_network">Không có</string>
+    <string name="value_not_selected">Chưa chọn</string>
     <string name="btn_back">QUAY LẠI ĐĂNG KÝ</string>
 </resources>
