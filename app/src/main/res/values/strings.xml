@@ -1,0 +1,31 @@
+﻿<resources>
+    <string name="app_name">BT Event Registration</string>
+    <string name="title_register">ĐĂNG KÝ THÔNG TIN</string>
+    <string name="subtitle_register">Thực hành Sự kiện &amp; Xác thực Form (Lab 05)</string>
+    <string name="label_fullname">Họ và tên</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Số điện thoại</string>
+    <string name="label_studentid">Mã số sinh viên (MSSV)</string>
+    <string name="label_gender">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    <string name="label_social">Mạng xã hội đang sử dụng</string>
+    <string name="social_facebook">Facebook</string>
+    <string name="social_zalo">Zalo</string>
+    <string name="social_tiktok">TikTok</string>
+    <string name="social_instagram">Instagram</string>
+    <string name="label_terms">Tôi đồng ý với các điều khoản cam kết</string>
+    <string name="btn_register">ĐĂNG KÝ THÔNG TIN</string>
+    <string name="student_info_footer">Sinh viên thực hiện: Võ Quốc Khánh\nMSSV: 2212345 | Lớp: Thực hành LTTĐTDĐ</string>
+    <string name="err_empty_name">Họ tên không được để trống (tối thiểu 3 ký tự)</string>
+    <string name="err_invalid_email">Email không đúng định dạng (@ute.vn, @gmail.com)</string>
+    <string name="err_invalid_phone">Số điện thoại không hợp lệ (10 số, đầu 03/05/07/08/09)</string>
+    <string name="err_empty_studentid">Mã sinh viên không được để trống</string>
+    <string name="err_gender">Vui lòng chọn giới tính!</string>
+    <string name="err_social">Vui lòng chọn ít nhất một mạng xã hội!</string>
+    <string name="err_terms">Vui lòng đồng ý với điều khoản cam kết!</string>
+    <string name="title_detail">THÔNG TIN ĐÃ ĐĂNG KÝ</string>
+    <string name="subtitle_detail">Hồ sơ sinh viên tiếp nhận thành công</string>
+    <string name="btn_back">QUAY LẠI ĐĂNG KÝ</string>
+</resources>
